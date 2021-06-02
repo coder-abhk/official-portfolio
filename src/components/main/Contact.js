@@ -7,7 +7,7 @@ const Contact = () => {
         To contact:
       </h2>
       <div>
-        <i class="fas fa-envelope-open-text color-purple"></i>{" "}
+        <i className="fas fa-envelope-open-text color-purple"></i>{" "}
         <a href="mailto:abhkrwt07@gmail.com">Mail Me</a>
       </div>
     </div>

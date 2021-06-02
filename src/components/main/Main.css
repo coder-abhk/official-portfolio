@@ -149,6 +149,13 @@ ul li {
   font-weight: 600;
 }
 
+@media (max-width: 768px) {
+  .main__section {
+    width: 85%;
+    padding: 2rem 1rem;
+  }
+}
+
 @media (max-width: 571px) {
   .main__section {
     width: 95%;
