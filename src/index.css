@@ -15,6 +15,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h2 {
+  line-height: 35px;
+}
+
 .margin__bottom {
   margin-bottom: 1rem;
 }
@@ -28,14 +32,12 @@ body {
 }
 
 .special__border {
-  padding: 0.3rem 0.75rem;
+  padding: 0.75rem 0.75rem;
   border-radius: 7px;
   border-left: 5px solid #b61bff;
   background-color: #fbf1ff;
 }
 
 .special__font {
-  padding: 1rem;
-  /* font-family: "ZCOOL KuaiLe"; */
   font-family: "Press Start 2P";
 }

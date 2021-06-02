@@ -58,9 +58,9 @@ const MainComponent = ({ my_name }) => {
   return (
     <div className="main__section">
       <>
-        <h1 className="margin__bottom font__weight__500 special__border special__font">
+        <h2 className="margin__bottom font__weight__500 special__border special__font">
           {my_name}
-        </h1>
+        </h2>
         <p className="margin__bottom">
           Hey! my name is Abhishek Rawat. I’m a web developer, ❤️ love to
           design, 🛠 build and create 🦋 beautiful websites.
