@@ -1,13 +1,10 @@
 import React, { useState } from "react";
 import "./Main.css";
-import cssImg from "../../assets/icons/css.png";
-import htmlImg from "../../assets/icons/html.png";
-import javascriptImg from "../../assets/icons/javascript.png";
-import mysqlImg from "../../assets/icons/mysql.png";
-import pythonImg from "../../assets/icons/python.png";
-import reactImg from "../../assets/icons/react.png";
 import profilePic from "../../assets/images/abhk_pp.jpg";
 import ExploreButton from "../buttons/explore_button";
+import Tech from "./Tech";
+import Projects from "./Projects";
+import Contact from "./Contact";
 
 const MainComponent = () => {
   const [isShow, setIsShow] = useState(false);
@@ -79,97 +76,14 @@ const MainComponent = () => {
         <div>{profileDisplayHandler()}</div>
       </div>
       {/* techs section */}
-      <div className="my__techs__wrapper">
-        <div className="techs__header">
-          <h1 className="text__center">My Techs</h1>
-          <p className="margin__top margin__bottom text__center">
-            To showcase and build projects, I basically used these technologies
-            listed below.👇
-          </p>
-        </div>
-        <div className="techs__lists__wrapper">
-          <div className="tech__img__wrapper">
-            <img className="tech__img" src={cssImg} alt="" />
-          </div>
-          <div className="tech__img__wrapper">
-            <img className="tech__img" src={htmlImg} alt="" />
-          </div>
-          <div className="tech__img__wrapper">
-            <img className="tech__img" src={javascriptImg} alt="" />
-          </div>
-          <div className="tech__img__wrapper">
-            <img className="tech__img" src={reactImg} alt="" />
-          </div>
-          <div className="tech__img__wrapper">
-            <img className="tech__img" src={pythonImg} alt="" />
-          </div>
-          <div className="tech__img__wrapper">
-            <img className="tech__img" src={mysqlImg} alt="" />
-          </div>
-        </div>
-      </div>
+      <Tech />
       {/* end techs section */}
       {/* projects */}
-      <div className="my__projects__wrapper margin__top margin__bottom">
-        <div className="projects__header margin__bottom">
-          <h1 className="text__center">My Projects</h1>
-          <p className="text__center margin__top margin__bottom">
-            Here are few projects, recently added.
-          </p>
-        </div>
-        <ul className="">
-          <li>
-            <i className="fas fa-user-md color-purple"></i>{" "}
-            <a
-              href="https://dr-health.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-              className="text__decoration__none"
-            >
-              Doctor Health
-            </a>
-          </li>
-          <li>
-            <i className="fas fa-weight color-purple"></i>{" "}
-            <a
-              href="https://bmi-calc-abhk.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-              className="text__decoration__none"
-            >
-              Simple BMI Calculator
-            </a>
-          </li>
-          <li>
-            <i className="fas fa-blog color-purple"></i>{" "}
-            <a
-              href="https://channel-live.herokuapp.com/"
-              target="_blank"
-              rel="noreferrer"
-              className="text__decoration__none"
-            >
-              Blog Website
-            </a>
-          </li>
-        </ul>
-      </div>
+      <Projects />
       {/* end projects */}
       {/* contact */}
-      <div className="contact__wrapper ">
-        <h1 className="margin__bottom font__weight__500 special__border">
-          To contact:
-        </h1>
-        <div>
-          <i class="fas fa-envelope-open-text color-purple"></i>{" "}
-          <a href="mailto:abhkrwt07@gmail.com">Mail Me</a>
-        </div>
-      </div>
+      <Contact />
       {/* end contact */}
-      {/* footer */}
-      <div className="margin__top">
-        <p className="text__center">@{new Date().getFullYear()}</p>
-      </div>
-      {/* end footer */}
     </div>
   );
 };
