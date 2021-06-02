@@ -62,8 +62,9 @@ const MainComponent = ({ my_name }) => {
           {my_name}
         </h2>
         <p className="margin__bottom">
-          Hey! my name is Abhishek Rawat. I’m a web developer, ❤️ love to
-          design, 🛠 build and create 🦋 beautiful websites.
+          Hey! my name is Abhishek Rawat. I wants to be a fullstack web
+          developer, ❤️ love to design, 🛠 build and create 🦋 beautiful
+          websites.
         </p>
         <p className="margin__bottom">
           To showcase my work I love to deploy them to GitHub. I also run a
