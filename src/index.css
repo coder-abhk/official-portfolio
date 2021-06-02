@@ -13,6 +13,7 @@ body {
   background-color: #fefaff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: background-color 200ms ease-in-out;
 }
 
 h2 {
@@ -36,8 +37,54 @@ h2 {
   border-radius: 7px;
   border-left: 5px solid #b61bff;
   background-color: #fbf1ff;
+  transition: background-color 200ms ease-in-out;
 }
 
 .special__font {
   font-family: "Press Start 2P";
+}
+
+/* dark-purple theme */
+
+.dark__purple__theme {
+  background-color: #1e1321 !important;
+}
+
+.elements__dark__shade {
+  background-color: #2e2433 !important;
+}
+
+.theme__button {
+  width: 45px;
+  height: 45px;
+  color: white;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  border: 5px solid #f7c9ff;
+  border-radius: 50%;
+  background-color: #b61bff;
+}
+
+.fa-sun,
+.fa-moon {
+  transition: all 300ms ease-in-out;
+}
+
+.rotateZ-sun {
+  transform: rotateZ(-35deg);
+}
+
+.rotateZ-moon {
+  transform: rotateZ(75deg);
+}
+
+.flex__end {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url("./assets/images/dotted__bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
 }

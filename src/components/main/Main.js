@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "./Main.css";
 import profilePic from "../../assets/images/abhk_pp.jpg";
 import ExploreButton from "../buttons/explore_button";
@@ -7,9 +7,27 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 
 const MainComponent = ({ my_name }) => {
+  let tech__img__wrapper = useRef(null);
+  let theme__header = useRef(null);
+  let theme__contact = useRef(null);
+
+  const [isThemed, setIsThemed] = useState(false);
   const [isShow, setIsShow] = useState(false);
   const showHandler = () => {
     isShow ? setIsShow(false) : setIsShow(true);
+  };
+
+  const themeHandler = () => {
+    document.body.classList.toggle("dark__purple__theme");
+    theme__header.current.classList.toggle("elements__dark__shade");
+    theme__contact.current.classList.toggle("elements__dark__shade");
+
+    const nodes = tech__img__wrapper.current.children;
+    for (let i = 0; i < nodes.length; i++) {
+      nodes[i].classList.toggle("elements__dark__shade");
+    }
+
+    isThemed ? setIsThemed(false) : setIsThemed(true);
   };
 
   const profileDisplayHandler = () => {
@@ -17,7 +35,7 @@ const MainComponent = ({ my_name }) => {
       <div
         className={`profile__display ${
           isShow ? "display__block" : "display__none"
-        }`}
+        } ${isThemed ? "elements__dark__shade" : " "}`}
       >
         <div className="profile__pic__wrapper">
           <img className="profile__pic" src={profilePic} alt="" />
@@ -57,8 +75,20 @@ const MainComponent = ({ my_name }) => {
 
   return (
     <div className="main__section">
+      <div className="flex__end">
+        <button className="theme__button" onClick={themeHandler}>
+          <i
+            className={`fas ${
+              isThemed ? "fa-sun rotateZ-moon" : "fa-moon rotateZ-sun"
+            }`}
+          ></i>
+        </button>
+      </div>
       <>
-        <h2 className="margin__bottom font__weight__500 special__border special__font">
+        <h2
+          ref={theme__header}
+          className="margin__bottom font__weight__500 special__border special__font"
+        >
           {my_name}
         </h2>
         <p className="margin__bottom">
@@ -76,9 +106,9 @@ const MainComponent = ({ my_name }) => {
         </div>
         <div>{profileDisplayHandler()}</div>
       </>
-      <Tech />
+      <Tech tech__img__wrapper={tech__img__wrapper} />
       <Projects />
-      <Contact />
+      <Contact theme__contact={theme__contact} />
     </div>
   );
 };

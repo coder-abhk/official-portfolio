@@ -6,7 +6,7 @@ import mysqlImg from "../../assets/icons/mysql.png";
 import pythonImg from "../../assets/icons/python.png";
 import reactImg from "../../assets/icons/react.png";
 
-const Tech = () => {
+const Tech = ({ tech__img__wrapper }) => {
   return (
     <div className="my__techs__wrapper">
       <div className="techs__header">
@@ -16,7 +16,7 @@ const Tech = () => {
           listed below.👇
         </p>
       </div>
-      <div className="techs__lists__wrapper">
+      <div ref={tech__img__wrapper} className="techs__lists__wrapper">
         <div className="tech__img__wrapper">
           <img className="tech__img" src={cssImg} alt="" />
         </div>

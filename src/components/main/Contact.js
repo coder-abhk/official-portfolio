@@ -1,9 +1,12 @@
 import React from "react";
 
-const Contact = () => {
+const Contact = ({ theme__contact }) => {
   return (
     <div className="contact__wrapper ">
-      <h2 className="margin__bottom font__weight__500 special__border">
+      <h2
+        ref={theme__contact}
+        className="margin__bottom font__weight__500 special__border"
+      >
         To contact:
       </h2>
       <div>

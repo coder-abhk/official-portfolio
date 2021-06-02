@@ -1,7 +1,7 @@
 .main__section {
   width: 65%;
   margin: 0 auto;
-  padding: 2rem 3rem;
+  padding: 0rem 1rem 5rem 1rem;
 }
 
 .profile__display {
@@ -11,6 +11,7 @@
   padding: 1.5rem 1rem;
   margin-top: 1rem;
   border-radius: 10px;
+  background-color: #fefaff;
   box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.075);
   animation: slideDown 900ms ease-in-out 200ms 1 forwards;
 }
@@ -112,6 +113,7 @@ a:hover {
   cursor: pointer;
   overflow: hidden;
   border-radius: 15px;
+  transition: background-color 200ms ease-in-out;
   box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.075);
 }
 
