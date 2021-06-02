@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 
 const Footer = () => {
-  let [hours, setHours] = useState(0);
-  let [minutes, setMinutes] = useState(0);
-  let [seconds, setSeconds] = useState(0);
+  let [hours, setHours] = useState(() => 0);
+  let [minutes, setMinutes] = useState(() => 0);
+  let [seconds, setSeconds] = useState(() => 0);
 
   useEffect(() => {
     let date = new Date();
