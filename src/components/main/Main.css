@@ -1,7 +1,7 @@
 .main__section {
   width: 65%;
   margin: 0 auto;
-  padding: 0rem 1rem 5rem 1rem;
+  padding: 0rem 1rem 3rem 1rem;
 }
 
 .profile__display {
@@ -154,14 +154,13 @@ ul li {
 @media (max-width: 768px) {
   .main__section {
     width: 85%;
-    padding: 2rem 1rem;
   }
 }
 
 @media (max-width: 571px) {
   .main__section {
     width: 95%;
-    padding: 2rem 1rem;
+    padding: 0rem 1rem 2rem 1rem;
   }
 
   .tech__img__wrapper {
