@@ -10,7 +10,7 @@ const Tech = () => {
   return (
     <div className="my__techs__wrapper">
       <div className="techs__header">
-        <h1 className="text__center">My Techs</h1>
+        <h2 className="text__center special__font">My Technologies</h2>
         <p className="margin__top margin__bottom text__center">
           To showcase and build projects, I basically used these technologies
           listed below.👇

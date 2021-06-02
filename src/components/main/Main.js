@@ -6,7 +6,7 @@ import Tech from "./Tech";
 import Projects from "./Projects";
 import Contact from "./Contact";
 
-const MainComponent = () => {
+const MainComponent = ({ my_name }) => {
   const [isShow, setIsShow] = useState(false);
   const showHandler = () => {
     isShow ? setIsShow(false) : setIsShow(true);
@@ -57,9 +57,9 @@ const MainComponent = () => {
 
   return (
     <div className="main__section">
-      <div>
-        <h1 className="margin__bottom font__weight__500 special__border">
-          @coder-abhk
+      <>
+        <h1 className="margin__bottom font__weight__500 special__border special__font">
+          {my_name}
         </h1>
         <p className="margin__bottom">
           Hey! my name is Abhishek Rawat. I’m a web developer, ❤️ love to
@@ -74,16 +74,10 @@ const MainComponent = () => {
           <ExploreButton showHandler={showHandler} isShow={isShow} />
         </div>
         <div>{profileDisplayHandler()}</div>
-      </div>
-      {/* techs section */}
+      </>
       <Tech />
-      {/* end techs section */}
-      {/* projects */}
       <Projects />
-      {/* end projects */}
-      {/* contact */}
       <Contact />
-      {/* end contact */}
     </div>
   );
 };

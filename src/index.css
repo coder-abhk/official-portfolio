@@ -33,3 +33,9 @@ body {
   border-left: 5px solid #b61bff;
   background-color: #fbf1ff;
 }
+
+.special__font {
+  padding: 1rem;
+  /* font-family: "ZCOOL KuaiLe"; */
+  font-family: "Press Start 2P";
+}

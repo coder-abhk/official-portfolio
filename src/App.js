@@ -5,7 +5,7 @@ import MainComponent from "./components/main/Main";
 function App() {
   return (
     <div className="App">
-      <MainComponent />
+      <MainComponent my_name="@coder-abhk" />
       <Footer />
     </div>
   );

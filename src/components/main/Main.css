@@ -143,6 +143,12 @@ ul li {
   margin-top: 3rem;
 }
 
+.timer {
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
 @media (max-width: 571px) {
   .main__section {
     width: 95%;
