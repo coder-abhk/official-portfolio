@@ -7,16 +7,21 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 
 const MainComponent = ({ my_name }) => {
+  // dom reference elements hook
   let tech__img__wrapper = useRef(null);
   let theme__header = useRef(null);
   let theme__contact = useRef(null);
 
+  // theme controller hook
   const [isThemed, setIsThemed] = useState(false);
+  // display controller hook
   const [isShow, setIsShow] = useState(false);
+
   const showHandler = () => {
     isShow ? setIsShow(false) : setIsShow(true);
   };
 
+  // theme handler
   const themeHandler = () => {
     document.body.classList.toggle("dark__purple__theme");
     theme__header.current.classList.toggle("elements__dark__shade");
@@ -30,6 +35,7 @@ const MainComponent = ({ my_name }) => {
     isThemed ? setIsThemed(false) : setIsThemed(true);
   };
 
+  // profile display handler
   const profileDisplayHandler = () => {
     return (
       <div
@@ -43,7 +49,7 @@ const MainComponent = ({ my_name }) => {
 
         <div className="profile__content margin__top">
           <p>
-            <i className="fab fa-github color-purple"></i>{" "}
+            <i className="fab fa-github color__purple"></i>{" "}
             <a
               href="https://github.com/coder-abhk"
               target="_blank"
@@ -53,13 +59,13 @@ const MainComponent = ({ my_name }) => {
             </a>
           </p>
           <p>
-            <i className="fab fa-telegram-plane color-purple"></i>{" "}
+            <i className="fab fa-telegram-plane color__purple"></i>{" "}
             <a href="https://t.me/jr_devs" target="_blank" rel="noreferrer">
               Telegram
             </a>
           </p>
           <p>
-            <i className="fab fa-facebook-f color-purple"></i>{" "}
+            <i className="fab fa-facebook-f color__purple"></i>{" "}
             <a
               href="https://www.facebook.com/coder.abhk/"
               target="_blank"
@@ -105,6 +111,7 @@ const MainComponent = ({ my_name }) => {
           <ExploreButton showHandler={showHandler} isShow={isShow} />
         </div>
         <div>{profileDisplayHandler()}</div>
+        <div className={` ${isShow ? "" : "backward__animation"}`}></div>
       </>
       <Tech tech__img__wrapper={tech__img__wrapper} />
       <Projects />

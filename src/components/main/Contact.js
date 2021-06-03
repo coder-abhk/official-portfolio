@@ -10,7 +10,7 @@ const Contact = ({ theme__contact }) => {
         To contact:
       </h2>
       <div>
-        <i className="fas fa-envelope-open-text color-purple"></i>{" "}
+        <i className="fas fa-envelope-open-text color__purple"></i>{" "}
         <a href="mailto:abhkrwt07@gmail.com">Mail Me</a>
       </div>
     </div>
