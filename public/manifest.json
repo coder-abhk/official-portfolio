@@ -6,6 +6,11 @@
       "src": "updated_logo.ico",
       "type": "image/x-icon",
       "sizes": "104x104"
+    },
+    {
+      "src": "updated_logo.ipng",
+      "type": "image/png",
+      "sizes": "104x104"
     }
   ],
   "start_url": ".",
