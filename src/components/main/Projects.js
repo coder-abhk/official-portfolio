@@ -22,7 +22,7 @@ const Projects = () => {
           </a>
         </li>
         <li>
-          <i className="fas fa-blog color__purple"></i>{" "}
+          <i class="far fa-newspaper"></i>{" "}
           <a
             href="https://cover-page-abhk.netlify.app"
             target="_blank"
