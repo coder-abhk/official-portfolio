@@ -11,6 +11,28 @@ const Projects = () => {
       </div>
       <ul className="">
         <li>
+          <i className="fas fa-blog color__purple"></i>{" "}
+          <a
+            href="https://channel-live.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="text__decoration__none"
+          >
+            Blog Website (in Python/Django)
+          </a>
+        </li>
+        <li>
+          <i className="fas fa-blog color__purple"></i>{" "}
+          <a
+            href="https://cover-page-abhk.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+            className="text__decoration__none"
+          >
+            Cover Page (in HTML5, CSS3 and Javascript)
+          </a>
+        </li>
+        <li>
           <i className="fas fa-user-md color__purple"></i>{" "}
           <a
             href="https://dr-health.netlify.app/"
@@ -29,18 +51,7 @@ const Projects = () => {
             rel="noreferrer"
             className="text__decoration__none"
           >
-            Simple BMI Calculator
-          </a>
-        </li>
-        <li>
-          <i className="fas fa-blog color__purple"></i>{" "}
-          <a
-            href="https://channel-live.herokuapp.com/"
-            target="_blank"
-            rel="noreferrer"
-            className="text__decoration__none"
-          >
-            Blog Website
+            Simple BMI Calculator(in react.js)
           </a>
         </li>
       </ul>
