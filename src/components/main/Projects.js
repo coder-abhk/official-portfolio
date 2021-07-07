@@ -4,9 +4,11 @@ const Projects = () => {
   return (
     <div className="margin__top margin__bottom">
       <div className="margin__bottom">
-        <h2 className="text__center special__font">My Projects</h2>
-        <p className="text__center margin__top margin__bottom">
-          Here are few projects, recently added.
+        <h2 className="text__center special__font margin__bottom">
+          My Projects
+        </h2>
+        <p className="text__center font__large margin__bottom">
+          Here are few projects, I had recently added.
         </p>
       </div>
       <ul className="">

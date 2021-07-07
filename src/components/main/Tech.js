@@ -10,18 +10,20 @@ const Tech = ({ tech__img__wrapper }) => {
   return (
     <div className="my__techs__wrapper">
       <div className="techs__header">
-        <h2 className="text__center special__font">My Technologies</h2>
-        <p className="margin__top margin__bottom text__center">
+        <h2 className="text__center special__font margin__bottom">
+          My Technologies
+        </h2>
+        <p className="margin__bottom font__large  text__center">
           To showcase and build projects, I basically used these technologies
           listed below.👇
         </p>
       </div>
       <div ref={tech__img__wrapper} className="techs__lists__wrapper">
         <div className="tech__img__wrapper">
-          <img className="tech__img" src={cssImg} alt="" />
+          <img className="tech__img" src={htmlImg} alt="" />
         </div>
         <div className="tech__img__wrapper">
-          <img className="tech__img" src={htmlImg} alt="" />
+          <img className="tech__img" src={cssImg} alt="" />
         </div>
         <div className="tech__img__wrapper">
           <img className="tech__img" src={javascriptImg} alt="" />
