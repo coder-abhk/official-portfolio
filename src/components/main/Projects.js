@@ -7,7 +7,7 @@ const Projects = () => {
         <h2 className="text__center special__font margin__bottom">
           My Projects
         </h2>
-        <p className="text__center font__large margin__bottom">
+        <p className="text__center  margin__bottom">
           Here are few projects, I had recently added.
         </p>
       </div>

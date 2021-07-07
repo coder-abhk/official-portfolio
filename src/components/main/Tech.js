@@ -13,7 +13,7 @@ const Tech = ({ tech__img__wrapper }) => {
         <h2 className="text__center special__font margin__bottom">
           My Technologies
         </h2>
-        <p className="margin__bottom font__large  text__center">
+        <p className="margin__bottom  text__center">
           To showcase and build projects, I basically used these technologies
           listed below.👇
         </p>

@@ -97,12 +97,12 @@ const MainComponent = ({ my_name }) => {
         >
           {my_name}
         </h2>
-        <p className="margin__top font__large ">
+        <p className="margin__top  ">
           Hey! my name is Abhishek Rawat. I want to be a fullstack web
           developer, ❤️ love to design, 🛠 build and create 🦋 beautiful
           websites.
         </p>
-        <p className="margin__top font__large ">
+        <p className="margin__top  ">
           To showcase my work I love to deploy them to GitHub. I also run a
           friend circle Telegram channel where I usually post articles on
           programming, linux operating system, and web technologies.{" "}
