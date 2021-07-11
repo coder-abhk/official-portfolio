@@ -13,6 +13,28 @@ const Projects = () => {
       </div>
       <ul className="">
         <li>
+          <i class="fas fa-globe-americas color__purple"></i>{" "}
+          <a
+            href="https://india-abhk.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="text__decoration__none"
+          >
+            INDIA
+          </a>
+        </li>
+        <li>
+          <i class="fas fa-shopping-cart color__purple"></i>{" "}
+          <a
+            href="https://shoppe-abhk.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="text__decoration__none"
+          >
+            Shoppe demo e-commerce site
+          </a>
+        </li>
+        <li>
           <i className="fas fa-blog color__purple"></i>{" "}
           <a
             href="https://channel-live.herokuapp.com/"
