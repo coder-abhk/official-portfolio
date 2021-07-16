@@ -15,7 +15,7 @@ const Projects = () => {
         <li>
           <i class="fas fa-virus color__purple"></i>{" "}
           <a
-            href="https://covid19-tracker -abhk.netlify.app/"
+            href="https://covid19-tracker-abhk.netlify.app/"
             target="_blank"
             rel="noreferrer"
             className="text__decoration__none"
