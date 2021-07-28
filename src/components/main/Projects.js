@@ -13,7 +13,7 @@ const Projects = () => {
       </div>
       <ul className="">
         <li>
-          <i class="fas fa-virus color__purple"></i>{" "}
+          <i className="fas fa-virus color__purple"></i>{" "}
           <a
             href="https://covid19-tracker-abhk.netlify.app/"
             target="_blank"
@@ -24,7 +24,7 @@ const Projects = () => {
           </a>
         </li>
         <li>
-          <i class="fas fa-globe-americas color__purple"></i>{" "}
+          <i className="fas fa-globe-americas color__purple"></i>{" "}
           <a
             href="https://india-abhk.netlify.app/"
             target="_blank"
@@ -35,7 +35,7 @@ const Projects = () => {
           </a>
         </li>
         <li>
-          <i class="fas fa-shopping-cart color__purple"></i>{" "}
+          <i className="fas fa-shopping-cart color__purple"></i>{" "}
           <a
             href="https://shoppe-abhk.netlify.app/"
             target="_blank"
