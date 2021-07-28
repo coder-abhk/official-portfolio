@@ -10,7 +10,7 @@ html {
 body {
   color: #8a7e8c;
   font-family: "PT Sans", sans-serif;
-  background-color: #fff;
+  background-color: #fafafa;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: background-color 200ms ease-in-out;
