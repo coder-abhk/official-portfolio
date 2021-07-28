@@ -10,7 +10,7 @@ html {
 body {
   color: #8a7e8c;
   font-family: "PT Sans", sans-serif;
-  background-color: #fafad7;
+  background-color: #fafafa;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: background-color 200ms ease-in-out;
@@ -37,10 +37,10 @@ h2 {
 }
 
 .special__border {
-  padding: 0.5rem 1rem;
+  padding: 1.5rem 1rem;
   border-radius: 7px;
   border-left: 5px solid #ff1b88;
-  background-color: #ffffdd;
+  background-color: #fff8fb;
   transition: background-color 200ms ease-in-out;
 }
 
