@@ -2,7 +2,7 @@
   position: fixed;
   width: min(345px);
   min-height: 245px;
-  top: 100px;
+  top: 90px;
   right: 1rem;
   border: 5px solid transparent;
   border-image: linear-gradient(90deg, #b517ff, #ec17ff) 30;
