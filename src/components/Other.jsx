@@ -10,21 +10,21 @@ function Other() {
       <p>
         <b>GitHub repo...</b>
       </p>
-      <p>
+      <p className="github__btn">
         <a
           href="https://github.com/coder-abhk"
           target="_blank"
           rel="noreferrer"
         >
-          <em>my github repo.</em>
+          my github repo.
         </a>
       </p>
       <p>
         <b>Contact me...</b>
       </p>
-      <p>
-        <a href="mailto:abhkrwt07@gmail.com" rel="noreferrer">
-          <em>mail me</em>
+      <p className="mail__btn">
+        <a href="mailto:abhkrwt07@gmail.com" target="_blank" rel="noreferrer">
+          <span className="mail__text"> mail me</span>
         </a>
       </p>
     </div>

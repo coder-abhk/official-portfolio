@@ -4,6 +4,34 @@
   padding-block: 2rem;
 }
 
+.github__btn,
+.mail__btn {
+  width: 175px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(-90deg, #b517ff, #ec17ff);
+  transition: box-shadow 300ms ease;
+  margin-block: 1rem;
+  border: 2px solid #b517ff;
+}
+
+.github__btn:hover,
+.mail__btn:hover {
+  cursor: pointer;
+  box-shadow: 6px 4px 20px rgba(0, 0, 0, 0.23);
+}
+
+.github__btn > a,
+.mail__btn > a,
+.mail__text {
+  text-decoration: none;
+  font-weight: 400;
+  color: #fff;
+}
+
 @media (max-width: 576px) {
   .other__links {
     width: 95%;
