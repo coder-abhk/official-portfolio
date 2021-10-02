@@ -1,0 +1,11 @@
+.other__links {
+  width: 70%;
+  margin: auto;
+  padding-block: 2rem;
+}
+
+@media (max-width: 576px) {
+  .other__links {
+    width: 95%;
+  }
+}

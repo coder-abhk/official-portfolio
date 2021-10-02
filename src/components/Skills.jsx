@@ -2,7 +2,7 @@ import "./Skills.css";
 
 function Skills() {
   return (
-    <div className="skills__section">
+    <div className="skills__section dim">
       <h1>Skills I Acquired.</h1>
       <p>
         To showcase and build projects, I generally use these technologies

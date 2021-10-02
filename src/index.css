@@ -26,6 +26,10 @@
   background-color: #520d72;
 }
 
+::selection {
+  background-color: #ea00ff;
+}
+
 h1,
 h2,
 h3,
@@ -35,10 +39,18 @@ h6 {
   font-family: "acme", sans-serif;
 }
 
+a:link {
+  color: #b517ff;
+}
+
 body {
   font-size: 18px;
   font-weight: 300;
   font-family: "Montserrat", sans-serif;
   line-height: 1.5;
   word-spacing: 5px;
+}
+
+.dim {
+  transition: opacity 200ms ease;
 }

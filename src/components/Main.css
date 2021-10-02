@@ -15,7 +15,7 @@
   width: 245px;
   margin-block: 2rem;
   border: 2px solid transparent;
-  filter: brightness(110%) grayscale(100%) contrast(110%);
+  filter: brightness(110%);
   border-image: linear-gradient(90deg, #b517ff, #ec17ff 50px) 30;
 }
 

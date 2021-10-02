@@ -1,0 +1,25 @@
+.blogs__container {
+  position: fixed;
+  width: min(345px);
+  min-height: 245px;
+  top: 100px;
+  right: 1rem;
+  border: 5px solid transparent;
+  border-image: linear-gradient(90deg, #b517ff, #ec17ff) 30;
+  background-color: #fff;
+  z-index: 2;
+  padding: 1rem;
+  opacity: 0;
+  animation: slideFromRight 500ms ease 300ms forwards;
+}
+
+@keyframes slideFromRight {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

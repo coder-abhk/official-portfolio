@@ -2,7 +2,7 @@ import "./Projects.css";
 
 function Projects() {
   return (
-    <div className="projects__container">
+    <div className="projects__container dim">
       <h1>Personal Projects.</h1>
       <p>Here are few projects, I had recently added.</p>
       <ul className="list__container">

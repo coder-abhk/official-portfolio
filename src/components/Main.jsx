@@ -3,7 +3,7 @@ import ppic from "../assets/images/abhk_pp.jpg";
 
 function Main() {
   return (
-    <main className="main__wrapper">
+    <main className="main__wrapper dim">
       <h1>Who am I?</h1>
       <img className="profile__pic" src={ppic} alt="coder abhk" />
       <p>

@@ -15,7 +15,7 @@ const Footer = () => {
     }, 1000);
   }, [hours, minutes, seconds]);
   return (
-    <div className="footer__container">
+    <div className="footer__container dim">
       <p className="">{`${hours}:${minutes}:${seconds}`}</p>
       <p className="">made with ❤️ @{new Date().getFullYear()}.</p>
     </div>
