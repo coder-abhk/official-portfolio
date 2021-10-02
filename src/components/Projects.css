@@ -1,0 +1,11 @@
+.projects__container {
+  width: 70%;
+  margin: auto;
+  padding-block: 2rem;
+}
+
+@media (max-width: 576px) {
+  .projects__container {
+    width: 95%;
+  }
+}

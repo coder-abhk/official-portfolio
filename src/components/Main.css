@@ -1,0 +1,26 @@
+.main__wrapper {
+  width: 70%;
+  margin: auto;
+  padding-block: 2.5rem;
+}
+
+.list__container {
+  list-style: square;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.profile__pic {
+  display: block;
+  width: 245px;
+  margin-block: 2rem;
+  border: 2px solid transparent;
+  filter: brightness(110%) grayscale(100%) contrast(110%);
+  border-image: linear-gradient(90deg, #b517ff, #ec17ff 50px) 30;
+}
+
+@media (max-width: 576px) {
+  .main__wrapper {
+    width: 95%;
+  }
+}

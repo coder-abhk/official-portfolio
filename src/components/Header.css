@@ -1,0 +1,49 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  position: relative;
+  background-image: linear-gradient(-90deg, #b517ff, #ec17ff);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.header h2 {
+  color: #fff;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 5px;
+  width: 100%;
+  background-image: linear-gradient(90deg, #b517ff, #ec17ff);
+}
+
+.header__more__btn {
+  position: relative;
+  cursor: pointer;
+}
+
+.header__more__btn::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 300ms ease;
+}
+
+.header__more__btn:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./Footer.css";
 
 const Footer = () => {
   let [hours, setHours] = useState(() => 0);
@@ -14,10 +15,9 @@ const Footer = () => {
     }, 1000);
   }, [hours, minutes, seconds]);
   return (
-    <div className="margin__top">
-      <p className="text__center timer">{`${hours}:${minutes}:${seconds}`}</p>
-      <p className="text__center">made with ❤️ @{new Date().getFullYear()}.</p>
-      <br></br>
+    <div className="footer__container">
+      <p className="">{`${hours}:${minutes}:${seconds}`}</p>
+      <p className="">made with ❤️ @{new Date().getFullYear()}.</p>
     </div>
   );
 };
