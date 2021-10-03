@@ -11,7 +11,7 @@
 .mousy__img {
   width: 225px;
   position: absolute;
-  right: -25px;
+  right: -235px;
   bottom: 0;
   z-index: 1;
   border: 2px solid transparent;
@@ -21,5 +21,9 @@
 @media (max-width: 576px) {
   .projects__container {
     width: 95%;
+  }
+
+  .mousy__img {
+    right: -25px;
   }
 }

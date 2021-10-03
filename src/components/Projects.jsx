@@ -23,7 +23,7 @@ function Projects() {
         gsap.fromTo(
           ".mousy__img",
           { y: -25, opacity: 0 },
-          { y: 0, opacity: 1, ease: "Power0.easeInOut" }
+          { y: 0, opacity: 1, ease: "bounce.out" }
         );
       });
       // remove image ele on mouseleave
