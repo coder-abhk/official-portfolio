@@ -1,6 +1,39 @@
+import covidtracker from "../assets/projects/covidtracker.png";
+import bmi from "../assets/projects/bmi.png";
+import fts from "../assets/projects/fts.png";
+import learningbag from "../assets/projects/learningbag.png";
+import blog from "../assets/projects/blog.png";
 import "./Projects.css";
+import { useEffect } from "react";
+import { gsap } from "gsap";
 
 function Projects() {
+  // get all images
+  const images = [learningbag, covidtracker, blog, fts, bmi];
+  useEffect(() => {
+    // get all links
+    const links = Array.from(document.getElementsByClassName("image__preview"));
+    links.forEach((ele, idx) => {
+      // add image ele and gsap on mouseover
+      ele.addEventListener("mouseover", (e) => {
+        const img = document.createElement("img");
+        img.src = images[idx];
+        img.setAttribute("class", "mousy__img");
+        ele.append(img);
+        gsap.fromTo(
+          ".mousy__img",
+          { y: -25, opacity: 0 },
+          { y: 0, opacity: 1, ease: "Power0.easeInOut" }
+        );
+      });
+      // remove image ele on mouseleave
+      ele.addEventListener("mouseleave", (e) => {
+        document
+          .querySelectorAll(".mousy__img")
+          .forEach((item) => item.remove());
+      });
+    });
+  });
   return (
     <div className="projects__container dim">
       <h1>Personal Projects.</h1>
@@ -17,6 +50,7 @@ function Projects() {
                 alt=""
                 target="_blank"
                 rel="noreferrer"
+                className="image__preview"
               >
                 https://learningbag.netlify.app/
               </a>
@@ -34,6 +68,7 @@ function Projects() {
                 alt=""
                 target="_blank"
                 rel="noreferrer"
+                className="image__preview"
               >
                 https://covid19-tracker-abhk.netlify.app/
               </a>
@@ -51,6 +86,7 @@ function Projects() {
                 alt=""
                 target="_blank"
                 rel="noreferrer"
+                className="image__preview"
               >
                 https://channel-live.herokuapp.com/
               </a>
@@ -68,6 +104,7 @@ function Projects() {
                 alt=""
                 target="_blank"
                 rel="noreferrer"
+                className="image__preview"
               >
                 https://cover-page-abhk.netlify.app/
               </a>
@@ -85,6 +122,7 @@ function Projects() {
                 alt=""
                 target="_blank"
                 rel="noreferrer"
+                className="image__preview"
               >
                 https://bmi-calc-abhk.netlify.app/
               </a>
