@@ -20,6 +20,7 @@ function Projects() {
         img.src = images[idx];
         img.setAttribute("class", "mousy__img");
         ele.append(img);
+        // animate image
         gsap.fromTo(
           ".mousy__img",
           { y: -25, opacity: 0 },
