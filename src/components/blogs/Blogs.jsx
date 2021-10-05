@@ -12,13 +12,16 @@ function Blogs() {
             target="_blank"
             rel="noreferrer"
           >
-            <em>css tricks</em>
+            <em>
+              CSS Tricks ::marker | range slider | text overflow | clip-path |
+              custom scrollbar
+            </em>
           </a>
         </li>
         <li>
           <a
-            href="https://channel-live.herokuapp.com/details/16"
-            alt="how to embed github code in a webpage?"
+            href="https://channel-live.herokuapp.com/details/13"
+            alt="make your code look elegant in VSCode?"
             target="_blank"
             rel="noreferrer"
           >
