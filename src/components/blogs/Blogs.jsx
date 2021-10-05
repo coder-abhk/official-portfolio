@@ -12,10 +12,8 @@ function Blogs() {
             target="_blank"
             rel="noreferrer"
           >
-            <em>
-              CSS Tricks ::marker | range slider | text overflow | clip-path |
-              custom scrollbar
-            </em>
+            CSS Tricks ::marker | range slider | text overflow | clip-path |
+            custom scrollbar
           </a>
         </li>
         <li>
@@ -25,10 +23,8 @@ function Blogs() {
             target="_blank"
             rel="noreferrer"
           >
-            <em>
-              How to move a file from one folder to another using linux/ubuntu
-              terminal?
-            </em>
+            How to move a file from one folder to another using linux/ubuntu
+            terminal?
           </a>
         </li>
         <li>
@@ -38,7 +34,7 @@ function Blogs() {
             target="_blank"
             rel="noreferrer"
           >
-            <em>Make your code look elegant in VSCode?</em>
+            Make your code look elegant in VSCode?
           </a>
         </li>
         <li>
@@ -48,7 +44,7 @@ function Blogs() {
             target="_blank"
             rel="noreferrer"
           >
-            <em>CRUD operations in sql/mysql?</em>
+            CRUD operations in sql/mysql?
           </a>
         </li>
         <li>
@@ -58,7 +54,7 @@ function Blogs() {
             target="_blank"
             rel="noreferrer"
           >
-            <em>connect to mysql database using python?</em>
+            connect to mysql database using python?
           </a>
         </li>
         <li>
@@ -68,7 +64,7 @@ function Blogs() {
             target="_blank"
             rel="noreferrer"
           >
-            <em>linux useful commands for beginners?</em>
+            linux useful commands for beginners?
           </a>
         </li>
       </ul>
