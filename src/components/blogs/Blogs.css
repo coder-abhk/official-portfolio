@@ -1,7 +1,7 @@
 .blogs__container {
   position: fixed;
   width: min(345px);
-  min-height: 245px;
+  height: 425px;
   top: 90px;
   right: 1rem;
   border: 5px solid transparent;
@@ -10,6 +10,7 @@
   z-index: 2;
   padding: 1rem;
   opacity: 0;
+  overflow-y: scroll;
   animation: slideFromRight 500ms ease 300ms forwards;
 }
 
