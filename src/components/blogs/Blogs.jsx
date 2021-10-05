@@ -25,7 +25,7 @@ function Blogs() {
             target="_blank"
             rel="noreferrer"
           >
-            <em>embed github code in a webpage?</em>
+            <em>Make your code look elegant in VSCode?</em>
           </a>
         </li>
         <li>
