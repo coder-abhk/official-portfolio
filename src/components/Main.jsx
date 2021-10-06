@@ -33,8 +33,6 @@ function Main() {
           </p>
           <p>Uttaranchal College Of Science And Technology 2018-2021</p>
           <p>Course: Bsc. Information Technology</p>
-          <p>Second Year CGPA: 7.23/10</p>
-          <p>Last Year CGPA: __/10</p>
         </li>
       </ul>
     </main>
