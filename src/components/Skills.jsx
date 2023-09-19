@@ -12,6 +12,21 @@ function Skills() {
       <h3>Frontend Technologies:</h3>
       <div className="skill__cards">
         <div className="skill__card">
+          <h3>React js</h3>
+        </div>
+        <div className="skill__card">
+          <h3>@reduxjs/toolkit</h3>
+        </div>
+        <div className="skill__card">
+          <h3>Javascript</h3>
+        </div>
+        <div className="skill__card">
+          <h3>Jquery</h3>
+        </div>
+        <div className="skill__card">
+          <h3>Bootstrap</h3>
+        </div>
+        <div className="skill__card">
           <h3>HTML</h3>
         </div>
         <div className="skill__card">
@@ -21,31 +36,16 @@ function Skills() {
           <h3>SASS</h3>
         </div>
         <div className="skill__card">
-          <h3>Javascript</h3>
-        </div>
-        <div className="skill__card">
-          <h3>React+Redux</h3>
-        </div>
-        <div className="skill__card">
-          <h3>Jquery</h3>
-        </div>
-        <div className="skill__card">
-          <h3>Bootstrap</h3>
-        </div>
-        <div className="skill__card">
           <h3>Figma/Xd</h3>
         </div>
-        <div className="skill__card">
-          <h3>Inkscape</h3>
-        </div>
-        <div className="skill__card">
-          <h3>Gimp</h3>
-        </div>
       </div>
-      <h3>Backend Technologies:</h3>
+      <h3>Basic Backend Technologies:</h3>
       <div className="skill__cards">
         <div className="skill__card">
           <h3>Node js</h3>
+        </div>
+        <div className="skill__card">
+          <h3>Express js</h3>
         </div>
         <div className="skill__card">
           <h3>MySql/SQL</h3>

@@ -1,5 +1,5 @@
 import "./Main.css";
-import ppic from "../assets/images/abhk_pp.jpg";
+import ppic from "../assets/images/abhk_pic.jpeg";
 
 function Main() {
   return (

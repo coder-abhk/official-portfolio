@@ -13,6 +13,8 @@
 .profile__pic {
   display: block;
   width: 245px;
+  height: 245px;
+  object-fit: cover;
   margin-block: 2rem;
   border: 2px solid transparent;
   filter: brightness(110%);

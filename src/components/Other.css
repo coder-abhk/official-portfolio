@@ -6,8 +6,7 @@
 
 .github__btn,
 .mail__btn {
-  width: 175px;
-  height: 40px;
+  width: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,9 +26,18 @@
 .github__btn > a,
 .mail__btn > a,
 .mail__text {
+  display: flex;
+  padding: 5px 12px;
+  align-items: center;
   text-decoration: none;
   font-weight: 400;
   color: #fff;
+}
+
+.other_links_row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 @media (max-width: 576px) {

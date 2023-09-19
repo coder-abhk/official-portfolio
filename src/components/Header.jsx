@@ -10,7 +10,7 @@ function Header({ isToggle, setIsToggle }) {
           isToggle ? setIsToggle(false) : setIsToggle(true);
         }}
       >
-        more...
+       blogs
       </h2>
     </header>
   );
