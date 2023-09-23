@@ -14,6 +14,10 @@
   animation: slideFromRight 500ms ease 300ms forwards;
 }
 
+.blogs__container h2 {
+  color: #000;
+}
+
 @keyframes slideFromRight {
   from {
     opacity: 0;

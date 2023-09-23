@@ -18,6 +18,10 @@
   border-image: linear-gradient(90deg, #b517ff, #ec17ff) 30;
 }
 
+.list__container a {
+  color: #ec17ff;
+}
+
 @media (max-width: 576px) {
   .projects__container {
     width: 95%;
